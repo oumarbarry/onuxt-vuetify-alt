@@ -1,0 +1,38 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "preview": "nuxt preview",
+    "generate": "nuxt generate",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "vuetify": "^3.1.10"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.36.0",
+    "@nuxt/devtools": "^0.2.5",
+    "@nuxt/image-edge": "1.0.0-27968280.9739e4d",
+    "@unocss/eslint-config": "^0.50.6",
+    "@unocss/nuxt": "^0.50.6",
+    "@vueuse/nuxt": "^9.13.0",
+    "eslint": "^8.36.0",
+    "nuxt": "^3.3.1",
+    "nuxt-icon": "^0.3.3",
+    "sass": "^1.59.3",
+    "typescript": "^5.0.2",
+    "vite-plugin-vuetify": "^1.0.2"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "webpack",
+        "vite",
+        "vue"
+      ]
+    }
+  }
+}
